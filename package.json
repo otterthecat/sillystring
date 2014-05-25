@@ -1,0 +1,35 @@
+{
+  "name": "sillystring",
+  "title": "sillystring",
+  "description": "String manipulation middleware",
+  "version": "0.0.1",
+  "homepage": "git@github.com:otterthecat/sillystring.git",
+  "author": {
+    "name": "Otter the Cat",
+    "email": "otc@otterthecat.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otterthecat/sillystring.git"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon": "*",
+    "sinon-chai": "*",
+    "gulp-mocha": "~0.4.1",
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.6.2",
+    "gulp-jshint": "~1.4.0",
+    "jshint-stylish": "~0.1.5",
+    "gulp-jscs": "~0.3.0",
+    "gulp-istanbul": "~0.1.0",
+    "gulp-plato": "~0.1.1"
+  },
+  "keywords": [
+    "silly",
+    "string",
+    "middleware",
+    "regex"
+  ]
+}

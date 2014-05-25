@@ -15,7 +15,7 @@ var istanbul = require('gulp-istanbul');
 var plato = require('gulp-plato');
 
 
-var sources = ['app.js']
+var sources = ['example.js', './lib/*.js']
 
 gulp.task('lint', function(){
 

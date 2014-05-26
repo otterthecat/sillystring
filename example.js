@@ -1,10 +1,7 @@
 var silly = require('./lib/sillystring');
 
 var sample = "Cat dog and cow with moose and dog and cat";
-var words = {
-	a: 'dog',
-	b: 'cow'
-};
+var words = ['dog', 'cow'];
 
 var transf = function(match){
 

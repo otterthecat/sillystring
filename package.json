@@ -12,6 +12,9 @@
     "type": "git",
     "url": "https://github.com/otterthecat/sillystring.git"
   },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -19,7 +22,7 @@
     "sinon-chai": "*",
     "gulp-mocha": "~0.4.1",
     "gulp-util": "~2.2.14",
-    "gulp": "~3.6.2",
+    "gulp": "~3.8.0",
     "gulp-jshint": "~1.4.0",
     "jshint-stylish": "~0.1.5",
     "gulp-jscs": "~0.3.0",
